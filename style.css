@@ -1,0 +1,97 @@
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-image: url("movie.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+
+
+}
+#mainDiv
+{
+   display: grid;
+   grid-template-columns: repeat(4,auto);
+   gap: 40px;
+   width: 500px;
+   height: 400px;
+   margin-left: 100px;
+}
+
+.subDiv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid rgb(146, 128, 134);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(188, 138, 138);
+    transition: all 2s ease-in-out;
+    color: rgb(216, 18, 137); 
+    
+}
+.subDiv:hover
+{
+    scale: 1.05;
+}
+
+.img
+{
+    height: 200px;
+    width: 200px;
+    border: 1px solid bisque;
+    border-radius: 10px;
+}
+.input
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+
+
+}
+
+#inp
+{
+    background: transparent;
+    color: rgb(204, 53, 53);
+     border: 1px solid rgb(146, 128, 134);
+    border-radius: 10px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#inp:focus
+{
+
+    color: rgb(204, 53, 53);
+}
+
+
+#btn
+{
+    background: transparent;
+    color: rgb(204, 53, 53);
+    border: 1px solid rgb(146, 128, 134);
+    border-radius: 10px;
+    height: 30px;
+    width: 90px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+#btn:hover
+{
+    background-color: blanchedalmond;
+}
